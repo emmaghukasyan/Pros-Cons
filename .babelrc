@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "transform-runtime",
+    "react-html-attrs",
+    "react-hot-loader/babel",
+    "transform-decorators-legacy"
+  ],
+  "presets": [
+    ["es2015", { "modules": false }],
+    "react",
+    "stage-0"
+  ]
+}
